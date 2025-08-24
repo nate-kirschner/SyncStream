@@ -12,7 +12,7 @@
 (function () {
   "use strict";
 
-  const WEB_SOCKET_URL = "ws://localhost:8080";
+  const WEB_SOCKET_URL = "wss://syncstream-ospy.onrender.com";
   const PLAY_BUTTON_QUERY = '[aria-label="Play"]';
   const PAUSE_BUTTON_QUERY = '[aria-label="Pause"]';
   const PLAY_MSG = "play";
